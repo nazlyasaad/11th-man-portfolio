@@ -122,13 +122,16 @@
            Upload your video to /documents/ as concept-video.mp4 
            And upload a thumbnail image to /images/video-poster.jpg
       -->
-      <div class="video-frame">
-        <video controls preload="metadata"
-               src="https://youtu.be/hWpHISbhFw0"
-               poster="images/video-poster.jpg">
-          Your browser does not support video playback.
-        </video>
-      </div>
+      <div class="video-container">
+        <iframe
+          src="https://youtu.be/hWpHISbhFw0"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+</div>
+
       <!-- *************************************************** -->
 
       <!-- PDF LINK (REPLACE WITH YOUR REAL FILE NAME IF DIFFERENT) -->
